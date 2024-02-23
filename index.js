@@ -3,7 +3,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 
 const app = express();
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: './.env' });
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
