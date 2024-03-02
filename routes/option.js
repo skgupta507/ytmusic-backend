@@ -10,11 +10,11 @@ const config = {
 }
 
 const option = {
-    commute: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DWVDvBpGQbzXj&offset=0&limit=8`,
-    relax: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DWZd79rJ6a7lp&offset=0&limit=8`,
-    energize: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX8xfQRRX1PDm&offset=0&limit=8`,
-    workout: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX76Wlfdnj7AP&offset=0&limit=8`,
-    focus: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX8Uebhn9wzrS&offset=0&limit=8`,
+    commute: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DWVDvBpGQbzXj&offset=0&limit=8`,
+    relax: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DWZd79rJ6a7lp&offset=0&limit=8`,
+    energize: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX8xfQRRX1PDm&offset=0&limit=8`,
+    workout: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX76Wlfdnj7AP&offset=0&limit=8`,
+    focus: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX8Uebhn9wzrS&offset=0&limit=8`,
 }
 
 router.get('/option', async (req, res) => {
