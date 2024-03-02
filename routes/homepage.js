@@ -10,9 +10,9 @@ const config = {
 }
 
 const carousel = {
-    trending: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DXbVhgADFy3im&offset=0&limit=8`,
-    bolly: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX0XUfTFmNBRM&offset=0&limit=10`,
-    pop: `https://spotify23.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX4Wsb4d7NKfP&offset=0&limit=10`,
+    trending: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DXbVhgADFy3im&offset=0&limit=8`,
+    bolly: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX0XUfTFmNBRM&offset=0&limit=10`,
+    pop: `https://spotify117.p.rapidapi.com/playlist_tracks/?id=37i9dQZF1DX4Wsb4d7NKfP&offset=0&limit=10`,
 }
 
 router.get('/homepage', async (req, res) => {
